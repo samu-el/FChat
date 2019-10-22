@@ -13,7 +13,7 @@ void main() {
   testWidgets('ConversationPage UI Test', (WidgetTester tester) async  {
     //Build our app and trigger a frame
     await tester.pumpWidget(app);
-    expect(find.text("Samuel"), findsOneWidget);
+    expect(find.text("Samuel Mussie"), findsOneWidget);
     expect(find.text("@samuel"), findsOneWidget);
     expect(find.byType(IconButton), findsOneWidget);
     expect(find.byType(CircleAvatar), findsOneWidget);
